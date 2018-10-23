@@ -11,6 +11,7 @@
 		this.defaultTemplate
 		=	'<li data-id="{{id}}">'
 		+		'<div class="view">'
+		+           '<input type="checkbox">'
 		+			'<label>{{title}}</label>'
 		+			'<button class="destroy"></button>'
 		+		'</div>'
