@@ -22,7 +22,8 @@
 		callback = callback || function () {};
 
 		var newItem = {
-			title: title.trim()
+			title: title.trim(),
+			completed: false
 		};
 
 		this.storage.save(newItem, callback);
